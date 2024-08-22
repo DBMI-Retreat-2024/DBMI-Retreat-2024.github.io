@@ -28,6 +28,7 @@
             margin-bottom: 15px;
             border-left: 4px solid #CFB87C;
             background-color: #f8f9fa;
+            min-height: 50px;
         }
 
         .session-time {
@@ -35,6 +36,7 @@
             color: #CFB87C;
             width: 80px;
             display: inline-block;
+            font-size: 1em;
         }
 
         .session-details {
@@ -51,7 +53,16 @@
         .session-description {
             margin-left: 80px; /* Align with time */
             font-size: 0.95em;
+            margin-top: 10px;
         }
+
+        .session-keynote {
+            margin-left: 80px;
+            font-size: 0.95em;
+            margin-top: 10px;
+            color: #343a40;
+        }
+
     </style>
 </head>
 <body>
@@ -83,7 +94,7 @@
                     <div class="card-body">
                         <div class="session-item">
                             <span class="session-time">8:30am</span>
-                            <span class="session-details">Breakfast – Mitchell Hall</span>
+                            <span class="session-details">🥐 Breakfast – Mitchell Hall</span>
                         </div>
                         <div class="session-item">
                             <span class="session-time">9:00am</span>
@@ -91,35 +102,33 @@
                         </div>
                         <div class="session-item">
                             <span class="session-time">9:30am</span>
-                            <span class="session-title">Lightning talks | Omics and diseases – Mitchell Hall</span>
+                            <span class="session-title">🩺 Lightning talks | Clinical Informatics – Mitchell Hall</span>
                         </div>
                         <div class="session-description">
                             <ul>
-                                <li><strong>9:30am</strong> - Iain Konigsberg: Omic Associations with COPD Trajectories</li>
-                                <li><strong>9:45am</strong> - Antonio Porras: A data-driven approach to personalize and optimize the treatment of cranial pathology</li>
-                                <li><strong>10:00am</strong> - Harriet Dashnow: Short tandem repeat calling in patients and populations: opportunities and challenges</li>
-                                <li><strong>10:15am</strong> - Kewalin Stewart: SigMatch: Mechanism-guided drug repurposing in infectious diseases</li>
+                                <li><strong>9:32am</strong> - Antonio Porras: A data-driven approach to personalize and optimize the treatment of cranial pathology</li>
+                                <li><strong>9:44am</strong> - Harriet Dashnow: Short tandem repeat calling in patients and populations: opportunities and challenges</li>
+                                <li><strong>9:50am</strong> - Jenna Tomkinson: High-content imaging and machine learning predicts fibrosis in cardiac fibroblasts</li>
+                                <li><strong>10:02am</strong> - David Albers: Biomedical informatics, systems physiology, inverse problems, and human health impacts: a survey of problems from my interdisciplinary community</li>
+                                <li><strong>10:08am</strong> - Alex McManus: Deep Learning with Enforced Data Consistency for MR Image Reconstruction</li>
+                                <li><strong>10:14am</strong> - Yanjun Gao: Bridging Innovations and Clinical Impact: Language Technologies at the LARK Lab</li>
+                                <li><strong>10:26am</strong> - Jennifer Briggs: Constructing a Physics-informed Cerebral Hemodynamics Model within a Data Assimilation Pipeline to Enhance Clinical Decision Support in Neurocritical Care</li>
+                                <li><strong>10:32am</strong> - Andrea Sikora: AI for ICU Medications</li>
                             </ul>
                         </div>
                         <div class="session-item">
-                            <span class="session-time">10:21am</span>
-                            <span class="session-details">Break</span>
-                        </div>
-                        <div class="session-item">
-                            <span class="session-time">10:30am</span>
-                            <span class="session-title">Lightning talks | Miscellaneous topics – Mitchell Hall</span>
-                        </div>
-                        <div class="session-description">
-                            <ul>
-                                <li><strong>10:30am</strong> - David Albers: Biomedical informatics, systems physiology, inverse problems, and human health impacts: a survey of problems from my interdisciplinary community</li>
-                                <li><strong>10:45am</strong> - Yanjun Gao: Bridging Innovations and Clinical Impact: Language Technologies at the LARK Lab</li>
-                            </ul>
+                            <span class="session-time">10:44am</span>
+                            <span class="session-details">☕ Coffee Break</span>
                         </div>
                         <div class="session-item">
                             <span class="session-time">11:00am</span>
-                            <span class="session-details">Keynote – Kristi Holmes, PhD<br>
+                            <span class="session-title">Keynote – Kristi Holmes, PhD</span>
+                        </div>
+                        <div class="session-keynote">
                             <em>Associate Dean for Knowledge Management and Strategy, Director, Galter Health Sciences Library and Learning Center, Professor, Division of Health and Biomedical Informatics, Northwestern University Feinberg School of Medicine</em>
-                            </span>
+                            <p>
+                                Kristi Holmes is Associate Dean for Knowledge Management and Strategy, director of Galter Health Sciences Library and Learning Center, and professor of Preventive Medicine in the division of Health and Biomedical Informatics at Northwestern University Feinberg School of Medicine. Dr. Holmes serves as the Chief of Knowledge Management in Northwestern’s Institute for Artificial Intelligence in Medicine, and also serves on the leadership team of the Northwestern University Clinical and Translational Sciences Institute (NUCATS), where she directs evaluation and continuous improvement for the institute and several other programs and centers, including the NNLM National Evaluation Center. Her work focuses on the discovery and equitable access to knowledge through collaborative computational and social initiatives, including the role of repositories to enable FAIR data practices and a vibrant sharing ecosystem. She brings extensive experience with highly cooperative technical information projects on the local, national, and international level.
+                            </p>
                         </div>
                         <div class="session-item">
                             <span class="session-time">11:45am</span>
@@ -127,7 +136,7 @@
                         </div>
                         <div class="session-item">
                             <span class="session-time">12:00pm</span>
-                            <span class="session-details">Lunch / Walk the Gardens / Headshots and Small Group Photos - Amphitheater</span>
+                            <span class="session-details">🥗 Lunch / 🚶 Walk the Gardens / 📸 Headshots and Small Group Photos - Amphitheater</span>
                         </div>
                     </div>
                 </div>
@@ -139,53 +148,56 @@
                     </div>
                     <div class="card-body">
                         <div class="session-item">
-                            <span class="session-time">2:00pm</span>
+                            <span class="session-time">1:45pm</span>
                             <span class="session-title">Breakout Topics – Mitchell Hall and West Terrace</span>
                         </div>
                         <div class="session-description">
                             <ul>
-                                <li>Getting the most out of a mentor-mentee relationship</li>
-                                <li>How to interface with other departments? (Bridging the Gaps: Connecting with Different Types of Scientists?)</li>
+                                <li>Exploring the mentor-mentee relationship:</li>
+                                <ul>
+                                    <li>Who was your most impactful mentor and what was it about the relationship that was essential to you?</li>
+                                    <li>What are some positive/negative mentoring styles that have stood out for you?</li>
+                                    <li>What types of training would be helpful for you as a mentor or mentee?</li>
+                                </ul>
+                                <li>Collaboration in action:</li>
+                                <ul>
+                                    <li>What types of expertise (epidemiologists, public health, informatics) are represented in some of your collaborative projects?</li>
+                                    <li>How can the department facilitate your interactions with different types of scientists/researchers from other programs, divisions, departments, colleges, and schools?</li>
+                                </ul>
                             </ul>
                         </div>
                         <div class="session-item">
-                            <span class="session-time">3:00pm</span>
-                            <span class="session-title">Lightning talks | Miscellaneous topics continued</span>
+                            <span class="session-time">3:01pm</span>
+                            <span class="session-title">🦠 Lightning talks | Omics and diseases – Mitchell Hall</span>
                         </div>
                         <div class="session-description">
                             <ul>
-                                <li><strong>3:00pm</strong> - Jennifer Briggs: Constructing a Physics-informed Cerebral Hemodynamics Model within a Data Assimilation Pipeline to Enhance Clinical Decision Support in Neurocritical Care</li>
-                                <li><strong>3:06pm</strong> - Katie O’Brien: Increased plasma and placental acylcarnitines in Andean highlander preeclampsia</li>
-                                <li><strong>3:12pm</strong> - Crystal Musser: Strong Heart Study: Serum nicotine metabolite ratio (NMR) biomarker informs nicotine metabolism variation in American Indians who smoke commercial cigarettes</li>
+                                <li><strong>3:01pm</strong> - Parker Hicks: At scale transcriptomics-based knowledge discovery with cross-modal machine learning</li>
+                                <li><strong>3:07pm</strong> - Iain Konigsberg: Omic Associations with COPD Trajectories</li>
+                                <li><strong>3:19pm</strong> - Katie O’Brien: Increased plasma and placental acylcarnitines in Andean highlander preeclampsia</li>
+                                <li><strong>3:25pm</strong> - Kewalin Samart: SigMatch: Mechanism-guided drug repurposing in infectious diseases</li>
+                                <li><strong>3:37pm</strong> - Kendra Ferrier: Epigenome-Wide Association Study of Nicotine Metabolism Ratio in American Indians from the Strong Heart Study</li>
                             </ul>
                         </div>
                         <div class="session-item">
-                            <span class="session-time">3:18pm</span>
-                            <span class="session-title">Lightning talks | Genetics</span>
-                        </div>
-                        <div class="session-description">
-                            <ul>
-                                <li><strong>3:18pm</strong> - Nikita Pozdeyev: Genetic discovery using the All of Us Research Program whole genome sequencing data</li>
-                                <li><strong>3:33pm</strong> - Barbara Stranger: The role of sex in the genetics and genomics of complex traits</li>
-                                <li><strong>3:48pm</strong> - Banabithi Bose: GXwasR: A tool for conducting sex-aware quality control, association analysis, and testing various models of sex-dependent genetic effects in complex traits</li>
-                                <li><strong>3:54pm</strong> - Luciana Vargas: Calibration of Polygenic Risk Scores in African Americans using Estimated Genetic Ancestry</li>
-                                <li><strong>4:00pm</strong> - Kendra Ferrier: Epigenome-Wide Association Study of Nicotine Metabolism Ratio in American Indians from the Strong Heart Study</li>
-                                <li><strong>4:06pm</strong> - Carissa Sherman: Pharmacogenetics Within American Indians: Genetic Characterization of Nicotine Metabolism and Return of Results</li>
-                                <li><strong>4:12pm</strong> - Katherine Kichula: Genes encoding inhibitory KIR are associated with preeclampsia risk in Uganda</li>
-                            </ul>
+                            <span class="session-time">3:43pm</span>
+                            <span class="session-details">☕ Coffee Break</span>
                         </div>
                         <div class="session-item">
-                            <span class="session-time">4:18pm</span>
-                            <span class="session-title">Lightning talks | Artificial Intelligence</span>
+                            <span class="session-time">4:00pm</span>
+                            <span class="session-title">🧬 Lightning talks | Genetics and Genomes – Mitchell Hall</span>
                         </div>
                         <div class="session-description">
                             <ul>
-                                <li><strong>4:18pm</strong> - Andrea Sikora: AI for ICU Medications</li>
-                                <li><strong>4:33pm</strong> - Evan Brenner: Highlighting hallmarks of host specificity using machine learning</li>
-                                <li><strong>4:39pm</strong> - Jenna Tomkinson: High-content imaging and machine learning predicts fibrosis in cardiac fibroblasts</li>
-                                <li><strong>4:45pm</strong> - Abhirupa Ghosh: Unveiling Temporal and Geographical Trends in Antimicrobial Resistance Patterns of Acinetobacter baumannii Through Machine Learning</li>
-                                <li><strong>4:51pm</strong> - Parker Hicks: At scale transcriptomics-based knowledge discovery with cross-modal machine learning</li>
-                                <li><strong>4:57pm</strong> - Alex McManus: Deep Learning with Enforced Data Consistency for MR Image Reconstruction</li>
+                                <li><strong>4:01pm</strong> - Barbara Stranger: The role of sex in the genetics and genomics of complex traits</li>
+                                <li><strong>4:13pm</strong> - Evan Brenner: Highlighting hallmarks of host specificity using machine learning</li>
+                                <li><strong>4:19pm</strong> - Crystal Musser: Strong Heart Study: Serum nicotine metabolite ratio (NMR) biomarker informs nicotine metabolism variation in American Indians who smoke commercial cigarettes</li>
+                                <li><strong>4:25pm</strong> - Luciana Vargas: Calibration of Polygenic Risk Scores in African Americans using Estimated Genetic Ancestry</li>
+                                <li><strong>4:37pm</strong> - Nikita Pozdeyev: Genetic discovery using the All of Us Research Program whole genome sequencing data</li>
+                                <li><strong>4:43pm</strong> - Banabithi Bose: GXwasR: A tool for conducting sex-aware quality control, association analysis, and testing various models of sex-dependent genetic effects in complex traits</li>
+                                <li><strong>4:49pm</strong> - Carissa Sherman: Pharmacogenetics Within American Indians: Genetic Characterization of Nicotine Metabolism and Return of Results</li>
+                                <li><strong>4:55pm</strong> - Abhirupa Ghosh: Unveiling temporal and geographical trends in antimicrobial resistance patterns of Acinetobacter baumannii through machine learning</li>
+                                <li><strong>5:01pm</strong> - Katherine Kichula: Genes encoding inhibitory KIR are associated with preeclampsia risk in Uganda</li>
                             </ul>
                         </div>
                     </div>
@@ -198,7 +210,7 @@
                     </div>
                     <div class="card-body">
                         <div class="session-item">
-                            <span class="session-time">5:03pm</span>
+                            <span class="session-time">5:07pm</span>
                             <span class="session-details">Room turnaround and setup</span>
                         </div>
                         <div class="session-item">
@@ -207,7 +219,7 @@
                         </div>
                         <div class="session-item">
                             <span class="session-time">7:00pm</span>
-                            <span class="session-details">Closing</span>
+                            <span class="session-details">👋 Closing | Leadership</span>
                         </div>
                         <div class="session-item">
                             <span class="session-time">7:30pm</span>
