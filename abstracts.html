@@ -6,6 +6,61 @@
     <title>Abstracts | DBMI Retreat 2024</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        .nav-link {
+            color: #CFB87C !important;
+        }
+        .nav-link.active {
+            background-color: #CFB87C !important;
+            color: white !important;
+        }
+        
+        .abstract-item {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 5px solid #CFB87C;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .abstract-time {
+            font-weight: bold;
+            color: #CFB87C;
+            width: 100px;
+            display: inline-block;
+        }
+
+        .abstract-details {
+            display: inline-block;
+            width: calc(100% - 120px); /* Adjusting for time width and padding */
+        }
+
+        .abstract-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .abstract-description {
+            margin-left: 100px; /* Align with time */
+            font-size: 0.95em;
+        }
+
+        .card-header {
+            background-color: #CFB87C;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .abstract-headshot {
+            float: left;
+            margin-right: 15px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
     <!-- Header with Centered Navigation -->
@@ -22,126 +77,246 @@
     <!-- Main Content -->
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-12" style="margin-top: -20px;">
+            <div class="col-md-12">
                 <img class="d-block mx-auto mb-4" src="images/dbmi_logo.png" alt="DBMI Logo" height="70">
                 <h1 class="display-5 fw-bold text-body-emphasis text-center">Annual Retreat 2024</h1>
                 <h2 class="mb-6 text-center">Abstracts</h2>
 
-                <!-- Lightning Talks Card -->
+                <!-- Lightning Talks | Omics and diseases -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h3 class="mb-0">Lightning Talks</h3>
+                        Lightning Talks | Omics and diseases – Mitchell Hall
                     </div>
                     <div class="card-body">
-                        <div class="list-group">
-                            <div class="list-group-item">
-                                <h4><strong>Banabithi Bose - 10:00am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Jennifer Briggs - 10:06am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Parker Hicks - 10:12am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Katherine Kichula - 10:18am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Alex McManus - 10:24am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Katie O’Brien - 10:30am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Kewalin Samart - 10:36am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Carissa Sherman - 10:42am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Luciana Vargas - 10:48am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Trainee 10 - 10:54am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
+                        <div class="abstract-item">
+                            <img src="images/iain_konigsberg.jpg" alt="Iain Konigsberg" class="abstract-headshot">
+                            <span class="abstract-time">9:30am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Iain Konigsberg:</span> Omic Associations with COPD Trajectories
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/antonio_porras.jpg" alt="Antonio Porras" class="abstract-headshot">
+                            <span class="abstract-time">9:45am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Antonio Porras:</span> A data-driven approach to personalize and optimize the treatment of cranial pathology
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/harriet_dashnow.jpg" alt="Harriet Dashnow" class="abstract-headshot">
+                            <span class="abstract-time">10:00am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Harriet Dashnow:</span> Short tandem repeat calling in patients and populations: opportunities and challenges
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/kewalin_stewart.jpg" alt="Kewalin Stewart" class="abstract-headshot">
+                            <span class="abstract-time">10:15am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Kewalin Stewart:</span> SigMatch: Mechanism-guided drug repurposing in infectious diseases
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Keynote Card -->
+                <!-- Lightning Talks | Miscellaneous topics -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h3 class="mb-0">Keynote</h3>
+                        Lightning Talks | Miscellaneous topics – Mitchell Hall
                     </div>
                     <div class="card-body">
-                        <div class="list-group">
-                            <div class="list-group-item">
-                                <h4><strong>Kristi Holmes, PhD - 11:00am</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                                <p><em>Professor, Feinberg School of Medicine, Northwestern University</em></p>
-                            </div>
+                        <div class="abstract-item">
+                            <img src="images/david_albers.jpg" alt="David Albers" class="abstract-headshot">
+                            <span class="abstract-time">10:30am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">David Albers:</span> Biomedical informatics, systems physiology, inverse problems, and human health impacts: a survey of problems from my interdisciplinary community
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/yanjun_gao.jpg" alt="Yanjun Gao" class="abstract-headshot">
+                            <span class="abstract-time">10:45am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Yanjun Gao:</span> Bridging Innovations and Clinical Impact: Language Technologies at the LARK Lab
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Faculty Talks Card -->
+                <!-- Keynote -->
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h3 class="mb-0">Faculty Talks</h3>
+                        Keynote – Kristi Holmes, PhD
                     </div>
                     <div class="card-body">
-                        <div class="list-group">
-                            <div class="list-group-item">
-                                <h4><strong>Faculty Talk 1 - 4:00pm</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Faculty Talk 2 - 4:15pm</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Faculty Talk 3 - 4:30pm</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Faculty Talk 4 - 4:45pm</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Faculty Talk 5 - 5:00pm</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Donec sed odio dui. Nulla facilisi. Vivamus at augue eget arcu dictum varius duis at consectetur lorem.</p>
-                            </div>
-                            <div class="list-group-item">
-                                <h4><strong>Faculty Talk 6 - 5:15pm</strong></h4>
-                                <h5><em>Title goes here</em></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.</p>
-                            </div>
+                        <div class="abstract-item">
+                            <img src="images/kristi_holmes.jpg" alt="Kristi Holmes" class="abstract-headshot">
+                            <span class="abstract-time">11:00am</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Kristi Holmes, PhD:</span> 
+                                <em>Associate Dean for Knowledge Management and Strategy, Director, Galter Health Sciences Library and Learning Center, Professor, Division of Health and Biomedical Informatics, Northwestern University Feinberg School of Medicine</em>
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lightning Talks | Miscellaneous topics continued -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Lightning Talks | Miscellaneous topics continued – Mitchell Hall
+                    </div>
+                    <div class="card-body">
+                        <div class="abstract-item">
+                            <img src="images/jennifer_briggs.jpg" alt="Jennifer Briggs" class="abstract-headshot">
+                            <span class="abstract-time">3:00pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Jennifer Briggs:</span> Constructing a Physics-informed Cerebral Hemodynamics Model within a Data Assimilation Pipeline to Enhance Clinical Decision Support in Neurocritical Care
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/katie_obrien.jpg" alt="Katie O’Brien" class="abstract-headshot">
+                            <span class="abstract-time">3:06pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Katie O’Brien:</span> Increased plasma and placental acylcarnitines in Andean highlander preeclampsia
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/crystal_musser.jpg" alt="Crystal Musser" class="abstract-headshot">
+                            <span class="abstract-time">3:12pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Crystal Musser:</span> Strong Heart Study: Serum nicotine metabolite ratio (NMR) biomarker informs nicotine metabolism variation in American Indians who smoke commercial cigarettes
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lightning Talks | Genetics -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Lightning Talks | Genetics – Mitchell Hall
+                    </div>
+                    <div class="card-body">
+                        <div class="abstract-item">
+                            <img src="images/nikita_pozdeyev.jpg" alt="Nikita Pozdeyev" class="abstract-headshot">
+                            <span class="abstract-time">3:18pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Nikita Pozdeyev:</span> Genetic discovery using the All of Us Research Program whole genome sequencing data
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/barbara_stranger.jpg" alt="Barbara Stranger" class="abstract-headshot">
+                            <span class="abstract-time">3:33pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Barbara Stranger:</span> The role of sex in the genetics and genomics of complex traits
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/banabithi_bose.jpg" alt="Banabithi Bose" class="abstract-headshot">
+                            <span class="abstract-time">3:48pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Banabithi Bose:</span> GXwasR: A tool for conducting sex-aware quality control, association analysis, and testing various models of sex-dependent genetic effects in complex traits
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/luciana_vargas.jpg" alt="Luciana Vargas" class="abstract-headshot">
+                            <span class="abstract-time">3:54pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Luciana Vargas:</span> Calibration of Polygenic Risk Scores in African Americans using Estimated Genetic Ancestry
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/kendra_ferrier.jpg" alt="Kendra Ferrier" class="abstract-headshot">
+                            <span class="abstract-time">4:00pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Kendra Ferrier:</span> Epigenome-Wide Association Study of Nicotine Metabolism Ratio in American Indians from the Strong Heart Study
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/carissa_sherman.jpg" alt="Carissa Sherman" class="abstract-headshot">
+                            <span class="abstract-time">4:06pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Carissa Sherman:</span> Pharmacogenetics Within American Indians: Genetic Characterization of Nicotine Metabolism and Return of Results
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/katherine_kichula.jpg" alt="Katherine Kichula" class="abstract-headshot">
+                            <span class="abstract-time">4:12pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Katherine Kichula:</span> Genes encoding inhibitory KIR are associated with preeclampsia risk in Uganda
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lightning Talks | Artificial Intelligence -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Lightning Talks | Artificial Intelligence – Mitchell Hall
+                    </div>
+                    <div class="card-body">
+                        <div class="abstract-item">
+                            <img src="images/andrea_sikora.jpg" alt="Andrea Sikora" class="abstract-headshot">
+                            <span class="abstract-time">4:18pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Andrea Sikora:</span> AI for ICU Medications
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/evan_brenner.jpg" alt="Evan Brenner" class="abstract-headshot">
+                            <span class="abstract-time">4:33pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Evan Brenner:</span> Highlighting hallmarks of host specificity using machine learning
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/jenna_tomkinson.jpg" alt="Jenna Tomkinson" class="abstract-headshot">
+                            <span class="abstract-time">4:39pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Jenna Tomkinson:</span> High-content imaging and machine learning predicts fibrosis in cardiac fibroblasts
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/abhirupa_ghosh.jpg" alt="Abhirupa Ghosh" class="abstract-headshot">
+                            <span class="abstract-time">4:45pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Abhirupa Ghosh:</span> Unveiling Temporal and Geographical Trends in Antimicrobial Resistance Patterns of Acinetobacter baumannii Through Machine Learning
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/parker_hicks.jpg" alt="Parker Hicks" class="abstract-headshot">
+                            <span class="abstract-time">4:51pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Parker Hicks:</span> At scale transcriptomics-based knowledge discovery with cross-modal machine learning
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.</p>
+                        </div>
+                        <div class="abstract-item">
+                            <img src="images/alex_mcmanus.jpg" alt="Alex McManus" class="abstract-headshot">
+                            <span class="abstract-time">4:57pm</span>
+                            <span class="abstract-details">
+                                <span class="abstract-title">Alex McManus:</span> Deep Learning with Enforced Data Consistency for MR Image Reconstruction
+                            </span>
+                            <p class="abstract-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
                         </div>
                     </div>
                 </div>
